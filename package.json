@@ -1,0 +1,24 @@
+{
+  "name": "learning_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thatjsprof:14ck016828@github.com/thatjsprof/learning_node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thatjsprof/learning_node/issues"
+  },
+  "homepage": "https://github.com/thatjsprof/learning_node#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

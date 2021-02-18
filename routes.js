@@ -37,6 +37,6 @@ function requestHandler(req, res) {
     return res.end()
 }
 
-export default {
+module.exports = {
     handler: requestHandler
 }

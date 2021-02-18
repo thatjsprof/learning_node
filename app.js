@@ -1,5 +1,5 @@
-const fs = require('fs')
-import routes from './routes'
+const http = require('http')
+const routes = require('./routes')
 
 // function listener(req, res) {
     
@@ -7,4 +7,6 @@ import routes from './routes'
 
 const server = http.createServer(routes.handler)
 
-server.listen(3000)
+server.listen(3000, () => {
+    console.log('Server running')
+})
